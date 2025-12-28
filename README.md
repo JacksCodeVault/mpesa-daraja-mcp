@@ -2,7 +2,7 @@
 
 A comprehensive toolkit for accessing Safaricom's Daraja API documentation through web scraping and Model Context Protocol (MCP) integration. This project provides both a powerful scraper for keeping documentation up-to-date and a professional MCP server for AI assistant integration.
 
-## 🚀 Features
+## Features
 
 - **Complete Documentation Scraper**: Automated scraping of all 22 Daraja APIs with images
 - **Professional MCP Server**: Standards-compliant server for AI assistant integration
@@ -12,26 +12,26 @@ A comprehensive toolkit for accessing Safaricom's Daraja API documentation throu
 - **Offline Ready**: Complete documentation dataset included for immediate use
 - **Auto-Discovery**: Smart path detection for seamless setup
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Quick Start](#-quick-start)
-- [Installation](#-installation)
-- [Docker Deployment](#-docker-deployment)
-- [Scraper Usage](#-scraper-usage)
-- [MCP Server Setup](#-mcp-server-setup)
-- [Editor Integration](#-editor-integration)
-- [API Documentation](#-api-documentation)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+- [Docker Deployment](#docker-deployment)
+- [Scraper Usage](#scraper-usage)
+- [MCP Server Setup](#mcp-server-setup)
+- [Editor Integration](#editor-integration)
+- [API Documentation](#api-documentation)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Option 1: Docker Deployment (Recommended)
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Build and start Docker container
 cd mpesa-daraja-mcp
@@ -45,8 +45,8 @@ pnpm run docker:start
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Setup MCP server
 cd mpesa-daraja-mcp
@@ -60,8 +60,8 @@ pnpm run build
 
 ```bash
 # Clone and setup scraper
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Setup Python environment
 python -m venv venv
@@ -77,7 +77,7 @@ pnpm install
 pnpm run build
 ```
 
-## 🛠 Installation
+## Installation
 
 ### Prerequisites
 
@@ -93,15 +93,15 @@ pnpm run build
 # Option 1: Docker (Recommended)
 # Install Docker Desktop from https://docker.com
 # Clone repository
-git clone <repository-url>
-cd daraja-scraper-mcp\mpesa-daraja-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp\mpesa-daraja-mcp
 pnpm run docker:build
 
 # Option 2: Native Installation
 # Install Python and Node.js from official websites
 # Clone repository
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Python setup (for scraper)
 python -m venv venv
@@ -120,8 +120,8 @@ pnpm run build
 # Option 1: Docker (Recommended)
 # Install Docker Desktop from https://docker.com
 brew install git
-git clone <repository-url>
-cd daraja-scraper-mcp/mpesa-daraja-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp/mpesa-daraja-mcp
 pnpm run docker:build
 
 # Option 2: Native Installation
@@ -129,8 +129,8 @@ pnpm run docker:build
 brew install python node git pnpm
 
 # Clone repository
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Python setup (for scraper)
 python3 -m venv venv
@@ -152,8 +152,8 @@ sudo apt update
 sudo apt install docker.io docker-compose git
 sudo usermod -aG docker $USER
 # Log out and back in, then:
-git clone <repository-url>
-cd daraja-scraper-mcp/mpesa-daraja-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp/mpesa-daraja-mcp
 pnpm run docker:build
 
 # Option 2: Native Installation
@@ -163,8 +163,8 @@ sudo apt install python3 python3-venv nodejs npm git
 npm install -g pnpm
 
 # Clone repository
-git clone <repository-url>
-cd daraja-scraper-mcp
+git clone https://github.com/JacksCodeVault/mpesa-daraja-mcp.git
+cd mpesa-daraja-mcp
 
 # Python setup (for scraper)
 python3 -m venv venv
@@ -177,7 +177,7 @@ pnpm install
 pnpm run build
 ```
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 Docker provides the most reliable and consistent deployment method across all platforms.
 
@@ -268,7 +268,7 @@ When using Docker, update your editor's MCP configuration:
 }
 ```
 
-## 📊 Scraper Usage
+## Scraper Usage
 
 The scraper automatically downloads documentation for all 22 Daraja APIs with images.
 
@@ -309,7 +309,7 @@ python scraper.py
 
 ### Output Structure
 
-```
+```text
 daraja_docs_v3/
 ├── data_index.json          # API metadata and index
 ├── docs/                    # Markdown documentation
@@ -321,7 +321,7 @@ daraja_docs_v3/
     └── ... (200+ images)
 ```
 
-## 🔧 MCP Server Setup
+## MCP Server Setup
 
 The MCP server provides AI assistants with access to Daraja documentation through 6 powerful tools.
 
@@ -363,7 +363,7 @@ The server automatically detects documentation in these locations:
 - `/app/daraja_docs_v3` (Docker container)
 - Custom path via environment variable
 
-## 🔌 Editor Integration
+## Editor Integration
 
 ### Kiro IDE
 
@@ -518,7 +518,7 @@ For native installation:
 }
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Available APIs
 
@@ -568,61 +568,55 @@ The project includes comprehensive documentation for 22 Daraja APIs organized in
 
 #### Advanced API Search
 
-```
 Use search_daraja_apis tool with powerful filtering:
+
 - Query: "payment" + Category: "core" → Core payment APIs
 - Query: "balance" → AccountBalance and related APIs
 - Category: "business" → All business operation APIs
 - No parameters → All 22 APIs with categories
-```
 
 #### Complete Documentation Access
 
-```
 Use get_daraja_api_doc tool for full documentation:
+
 - api_name: "Authorization" → Complete OAuth implementation guide
 - api_name: "MpesaExpressSimulate" → Full STK Push documentation
 - Includes code examples, parameters, and response formats
-```
 
 #### Enhanced API Summaries
 
-```
 Use get_api_summary tool for quick overviews:
+
 - api_name: "BusinessToCustomer" → Summary with key endpoints
 - include_endpoints: true → Includes endpoint URLs
 - Perfect for quick reference and comparison
-```
 
 #### API Comparison
 
-```
 Use compare_apis tool for side-by-side analysis:
+
 - api_names: ["Authorization", "MpesaExpressSimulate"] → Compare auth vs payment
 - comparison_aspects: ["endpoints", "authentication"] → Focus on specific aspects
 - Supports 2-4 APIs simultaneously
-```
 
 #### Usage Statistics
 
-```
 Use get_server_stats tool for monitoring:
+
 - Total API count and categories
 - Most accessed APIs
 - Request statistics
 - Server health information
-```
 
 #### Category-Based Browsing
 
-```
 Use list_apis_by_category tool for organized access:
+
 - category: "payments" → All payment-related APIs
 - No category → List all categories with counts
 - Perfect for discovering related APIs
-```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Docker Issues
 
@@ -772,21 +766,21 @@ python scraper.py
 
 ### Platform-Specific Issues
 
-#### Windows
+#### Windows Platform Issues
 
 - **Use forward slashes** in Docker paths: `C:/path/to/project`
 - **Run PowerShell as Administrator** if Docker permission issues
 - **Check Windows Defender** isn't blocking Docker or Node.js
 - **Use WSL2** for better Docker performance
 
-#### macOS
+#### macOS Platform Issues
 
 - **Install Xcode Command Line Tools**: `xcode-select --install`
 - **Use Homebrew** for dependency management: `brew install docker`
 - **Check Docker Desktop** is running and configured
 - **Verify file permissions**: `chmod +x docker-scripts.sh`
 
-#### Linux
+#### Linux Platform Issues
 
 - **Add user to docker group**: `sudo usermod -aG docker $USER`
 - **Install build essentials**: `sudo apt install build-essential`
@@ -829,7 +823,7 @@ NODE_ENV=production pnpm run docker:start
 4. **Update dependencies**: Keep Docker, Node.js, and Python packages current
 5. **Use Docker for consistency**: Docker eliminates most platform-specific issues
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Setup
 
@@ -919,11 +913,11 @@ pnpm run docker:logs
 - Update API documentation
 - Include Docker-specific instructions
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Safaricom** for providing the Daraja API platform
 - **Model Context Protocol team** for the MCP standard
@@ -935,10 +929,10 @@ MIT License - see LICENSE file for details.
 
 **Ready to integrate Daraja API documentation with your AI assistant?**
 
-🐳 **Quick Start with Docker**: `cd mpesa-daraja-mcp && pnpm run docker:build && pnpm run docker:start`
+**Quick Start with Docker**: `cd mpesa-daraja-mcp && pnpm run docker:build && pnpm run docker:start`
 
-📖 **Browse the documentation**: Use the MCP tools to explore 22 comprehensive Daraja APIs
+**Browse the documentation**: Use the MCP tools to explore 22 comprehensive Daraja APIs
 
-🔧 **Need help?** Check the [Troubleshooting](#-troubleshooting) section or open an issue
+**Need help?** Check the [Troubleshooting](#troubleshooting) section or open an issue
 
-**Start with the [Quick Start](#-quick-start) guide and have your AI assistant accessing Daraja documentation in minutes!**
+**Start with the [Quick Start](#quick-start) guide and have your AI assistant accessing Daraja documentation in minutes!**
