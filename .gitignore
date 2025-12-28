@@ -258,9 +258,11 @@ Thumbs.db
 # Authentication files (contains sensitive session data)
 auth.json
 
-# Scraped data (can be regenerated)
-daraja_docs_v3/
+# Old scraper output (can be regenerated)
 output/
+
+# Keep scraped data for distribution
+# daraja_docs_v3/ - commented out to include in repo
 
 # Logs
 *.log

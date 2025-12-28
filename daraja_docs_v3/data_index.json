@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Authorization",
+    "url": "https://developer.safaricom.co.ke/apis/Authorization",
+    "local_path": "docs/Authorization.md",
+    "description": "Documentation for Authorization"
+  },
+  {
+    "name": "DynamicQRCode",
+    "url": "https://developer.safaricom.co.ke/apis/DynamicQRCode",
+    "local_path": "docs/DynamicQRCode.md",
+    "description": "Documentation for DynamicQRCode"
+  },
+  {
+    "name": "CustomerToBusiness",
+    "url": "https://developer.safaricom.co.ke/apis/CustomerToBusiness",
+    "local_path": "docs/CustomerToBusiness.md",
+    "description": "Documentation for CustomerToBusiness"
+  },
+  {
+    "name": "CustomerToBusinessRegisterURL",
+    "url": "https://developer.safaricom.co.ke/apis/CustomerToBusinessRegisterURL",
+    "local_path": "docs/CustomerToBusinessRegisterURL.md",
+    "description": "Documentation for CustomerToBusinessRegisterURL"
+  },
+  {
+    "name": "MpesaExpressSimulate",
+    "url": "https://developer.safaricom.co.ke/apis/MpesaExpressSimulate",
+    "local_path": "docs/MpesaExpressSimulate.md",
+    "description": "Documentation for MpesaExpressSimulate"
+  },
+  {
+    "name": "MpesaExpressQuery",
+    "url": "https://developer.safaricom.co.ke/apis/MpesaExpressQuery",
+    "local_path": "docs/MpesaExpressQuery.md",
+    "description": "Documentation for MpesaExpressQuery"
+  },
+  {
+    "name": "BusinessToCustomer",
+    "url": "https://developer.safaricom.co.ke/apis/BusinessToCustomer",
+    "local_path": "docs/BusinessToCustomer.md",
+    "description": "Documentation for BusinessToCustomer"
+  },
+  {
+    "name": "TransactionStatus",
+    "url": "https://developer.safaricom.co.ke/apis/TransactionStatus",
+    "local_path": "docs/TransactionStatus.md",
+    "description": "Documentation for TransactionStatus"
+  },
+  {
+    "name": "AccountBalance",
+    "url": "https://developer.safaricom.co.ke/apis/AccountBalance",
+    "local_path": "docs/AccountBalance.md",
+    "description": "Documentation for AccountBalance"
+  },
+  {
+    "name": "Reversal",
+    "url": "https://developer.safaricom.co.ke/apis/Reversal",
+    "local_path": "docs/Reversal.md",
+    "description": "Documentation for Reversal"
+  },
+  {
+    "name": "TaxRemittance",
+    "url": "https://developer.safaricom.co.ke/apis/TaxRemittance",
+    "local_path": "docs/TaxRemittance.md",
+    "description": "Documentation for TaxRemittance"
+  },
+  {
+    "name": "BusinessPayBill",
+    "url": "https://developer.safaricom.co.ke/apis/BusinessPayBill",
+    "local_path": "docs/BusinessPayBill.md",
+    "description": "Documentation for BusinessPayBill"
+  },
+  {
+    "name": "BusinessBuyGoods",
+    "url": "https://developer.safaricom.co.ke/apis/BusinessBuyGoods",
+    "local_path": "docs/BusinessBuyGoods.md",
+    "description": "Documentation for BusinessBuyGoods"
+  },
+  {
+    "name": "BillManager",
+    "url": "https://developer.safaricom.co.ke/apis/BillManager",
+    "local_path": "docs/BillManager.md",
+    "description": "Documentation for BillManager"
+  },
+  {
+    "name": "B2BExpressCheckout",
+    "url": "https://developer.safaricom.co.ke/apis/B2BExpressCheckout",
+    "local_path": "docs/B2BExpressCheckout.md",
+    "description": "Documentation for B2BExpressCheckout"
+  },
+  {
+    "name": "PullTransaction",
+    "url": "https://developer.safaricom.co.ke/apis/PullTransaction",
+    "local_path": "docs/PullTransaction.md",
+    "description": "Documentation for PullTransaction"
+  },
+  {
+    "name": "BusinessToPochi",
+    "url": "https://developer.safaricom.co.ke/apis/BusinessToPochi",
+    "local_path": "docs/BusinessToPochi.md",
+    "description": "Documentation for BusinessToPochi"
+  },
+  {
+    "name": "Swap",
+    "url": "https://developer.safaricom.co.ke/apis/Swap",
+    "local_path": "docs/Swap.md",
+    "description": "Documentation for Swap"
+  },
+  {
+    "name": "IMSI",
+    "url": "https://developer.safaricom.co.ke/apis/IMSI",
+    "local_path": "docs/IMSI.md",
+    "description": "Documentation for IMSI"
+  },
+  {
+    "name": "B2CAccountTopUp",
+    "url": "https://developer.safaricom.co.ke/apis/B2CAccountTopUp",
+    "local_path": "docs/B2CAccountTopUp.md",
+    "description": "Documentation for B2CAccountTopUp"
+  },
+  {
+    "name": "MpesaRatiba",
+    "url": "https://developer.safaricom.co.ke/apis/MpesaRatiba",
+    "local_path": "docs/MpesaRatiba.md",
+    "description": "Documentation for MpesaRatiba"
+  },
+  {
+    "name": "IotSimManagement",
+    "url": "https://developer.safaricom.co.ke/apis/IotSimManagement",
+    "local_path": "docs/IotSimManagement.md",
+    "description": "Documentation for IotSimManagement"
+  }
+]
