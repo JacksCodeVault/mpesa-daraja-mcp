@@ -1,6 +1,44 @@
 # Daraja API Documentation Scraper & MCP Server
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg)](https://docker.com/)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io/)
+
 A comprehensive toolkit for accessing Safaricom's Daraja API documentation through web scraping and Model Context Protocol (MCP) integration. This project provides both a powerful scraper for keeping documentation up-to-date and a professional MCP server for AI assistant integration.
+
+## ⚠️ Important Legal Notice & Disclaimers
+
+### Data Source and Usage Rights
+
+- **Documentation Source**: This project scrapes documentation from Safaricom's Daraja API portal
+- **Authentication Required**: The scraper requires login credentials to access Safaricom's developer portal
+- **Terms of Service**: Users must comply with [Safaricom's Terms of Service](https://developer.safaricom.co.ke/) when using the scraper
+- **Data Ownership**: All scraped documentation remains the intellectual property of Safaricom PLC
+
+### Legal Compliance
+
+- **Personal Use**: This tool is intended for personal development and learning purposes
+- **Commercial Use**: For commercial applications, ensure you have appropriate licenses from Safaricom
+- **Rate Limiting**: The scraper includes delays to respect Safaricom's servers - do not modify these
+- **Account Responsibility**: Users are responsible for their own Safaricom developer account credentials
+
+### Disclaimers
+
+- **No Warranty**: This software is provided "as is" without any warranties
+- **Data Accuracy**: Scraped documentation may become outdated - always verify with official sources
+- **Service Availability**: Safaricom may change their portal structure, potentially breaking the scraper
+- **Legal Responsibility**: Users assume all legal responsibility for their use of this tool
+
+### Ethical Usage Guidelines
+
+- **Respect Rate Limits**: Do not overwhelm Safaricom's servers with excessive requests
+- **Valid Credentials**: Only use your own legitimate Safaricom developer account
+- **Data Sharing**: Be mindful of sharing scraped data - respect Safaricom's intellectual property
+- **Updates**: Keep scraped documentation current and don't redistribute outdated information
+
+**By using this software, you acknowledge that you have read, understood, and agree to comply with these terms and Safaricom's Terms of Service.**
 
 ## Features
 
@@ -14,6 +52,7 @@ A comprehensive toolkit for accessing Safaricom's Daraja API documentation throu
 
 ## Table of Contents
 
+- [Important Legal Notice & Disclaimers](#️-important-legal-notice--disclaimers)
 - [Quick Start](#quick-start)
 - [Installation](#installation)
 - [Docker Deployment](#docker-deployment)
@@ -22,6 +61,8 @@ A comprehensive toolkit for accessing Safaricom's Daraja API documentation throu
 - [Editor Integration](#editor-integration)
 - [API Documentation](#api-documentation)
 - [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 - [Contributing](#contributing)
 
 ## Quick Start
@@ -269,6 +310,13 @@ When using Docker, update your editor's MCP configuration:
 ```
 
 ## Scraper Usage
+
+**⚠️ IMPORTANT**: Before using the scraper, ensure you have:
+
+- A valid Safaricom developer account
+- Accepted Safaricom's Terms of Service
+- Permission to access the documentation programmatically
+- Understanding that you're responsible for compliance with Safaricom's policies
 
 The scraper automatically downloads documentation for all 22 Daraja APIs with images.
 
@@ -825,6 +873,13 @@ NODE_ENV=production pnpm run docker:start
 
 ## Contributing
 
+**⚠️ Data Handling Guidelines for Contributors**:
+
+- **No Scraped Data in PRs**: Do not include scraped documentation in pull requests
+- **Respect IP Rights**: Ensure contributions don't violate Safaricom's intellectual property
+- **Code Only**: Contribute improvements to the scraper and MCP server code, not the data
+- **Documentation**: Update README and code comments, not scraped API documentation
+
 ### Development Setup
 
 1. **Fork the repository**
@@ -915,7 +970,31 @@ pnpm run docker:logs
 
 ## License
 
-MIT License - see LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**⚠️ Important License Clarification**:
+
+- **Software License**: The MIT License applies only to the scraper and MCP server code
+- **Documentation Rights**: Scraped Daraja API documentation remains the property of Safaricom PLC
+- **Separate Terms**: Use of Safaricom's documentation is subject to their Terms of Service
+- **No Transfer**: This license does not grant rights to Safaricom's intellectual property
+
+### What this means
+
+- ✅ **Commercial use** - Use this project in commercial applications
+- ✅ **Modification** - Modify the source code to fit your needs
+- ✅ **Distribution** - Distribute copies of the software
+- ✅ **Private use** - Use the software for private purposes
+- ❌ **Liability** - The authors are not liable for any damages
+- ❌ **Warranty** - The software is provided "as is" without warranty
+
+### Attribution
+
+If you use this project, please consider:
+
+- ⭐ **Starring the repository** on GitHub
+- 📝 **Mentioning the project** in your documentation
+- 🔗 **Linking back** to the original repository
 
 ## Acknowledgments
 
@@ -924,6 +1003,23 @@ MIT License - see LICENSE file for details.
 - **Playwright team** for the excellent automation framework
 - **Docker community** for containerization best practices
 - **Open source contributors** who make projects like this possible
+
+## Repository Information
+
+- **Repository**: [https://github.com/JacksCodeVault/mpesa-daraja-mcp](https://github.com/JacksCodeVault/mpesa-daraja-mcp)
+- **Issues**: [Report bugs or request features](https://github.com/JacksCodeVault/mpesa-daraja-mcp/issues)
+- **Discussions**: [Community discussions](https://github.com/JacksCodeVault/mpesa-daraja-mcp/discussions)
+- **Releases**: [Latest releases](https://github.com/JacksCodeVault/mpesa-daraja-mcp/releases)
+
+## Support
+
+If you find this project helpful, please consider:
+
+- ⭐ **Starring the repository**
+- 🐛 **Reporting issues** you encounter
+- 💡 **Suggesting improvements**
+- 🤝 **Contributing** to the project
+- 📢 **Sharing** with others who might benefit
 
 ---
 
