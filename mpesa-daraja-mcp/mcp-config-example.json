@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "daraja-docs": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "./mpesa-daraja-mcp",
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "search_daraja_apis",
+        "list_daraja_apis",
+        "get_api_summary"
+      ]
+    }
+  }
+}
