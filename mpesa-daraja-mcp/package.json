@@ -10,7 +10,15 @@
     "start": "node dist/index.js",
     "test": "node test-server.js",
     "clean": "rm -rf dist",
-    "prepare": "pnpm run build"
+    "prepare": "pnpm run build",
+    "docker:build": "docker-compose build",
+    "docker:start": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "docker:restart": "docker-compose restart",
+    "docker:logs": "docker-compose logs -f daraja-mcp",
+    "docker:status": "docker-compose ps",
+    "docker:shell": "docker-compose exec daraja-mcp sh",
+    "docker:clean": "docker-compose down --rmi all --volumes"
   },
   "keywords": ["mcp", "daraja", "mpesa", "safaricom", "api"],
   "author": "",

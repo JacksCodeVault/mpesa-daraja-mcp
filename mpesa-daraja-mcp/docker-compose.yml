@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  daraja-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: daraja-mcp-server
+    restart: unless-stopped
+    volumes:
+      # Mount the documentation directory
+      - ../daraja_docs_v3:/app/daraja_docs_v3:ro
+    environment:
+      - NODE_ENV=production
+    # Use stdin/stdout for MCP communication
+    stdin_open: true
+    tty: true
+    # Optional: expose port if you add HTTP endpoints later
+    # ports:
+    #   - "3000:3000"
+    networks:
+      - mcp-network
+
+networks:
+  mcp-network:
+    driver: bridge

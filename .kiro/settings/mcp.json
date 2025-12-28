@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "daraja-docs": {
+      "command": "docker",
+      "args": ["exec", "-i", "daraja-mcp-server", "node", "dist/index.js"],
+      "disabled": false,
+      "autoApprove": [
+        "search_daraja_apis",
+        "get_daraja_api_doc",
+        "list_apis_by_category",
+        "get_api_summary",
+        "get_server_stats",
+        "compare_apis"
+      ]
+    }
+  }
+}

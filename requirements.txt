@@ -1,0 +1,18 @@
+# Daraja API Documentation Scraper Requirements
+# Python 3.8+ required
+
+# Core dependencies
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+markdownify>=0.11.6
+
+# Enhanced HTML parsing (recommended)
+lxml>=4.9.0
+html5lib>=1.1
+
+# Installation Notes:
+# After installing playwright, you need to install browser binaries:
+# playwright install chromium
+# 
+# Or install all browsers:
+# playwright install
